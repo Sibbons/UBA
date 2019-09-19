@@ -1,0 +1,105 @@
+body{
+    background-color: #1a1943;
+    color: white;
+    font-family: serif;
+}
+
+.landingWrapper{
+    margin-top: 8vh;
+    display: grid;
+    justify-content: space-around;
+    align-content: end;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "logo . . navRight"
+    ". message . navRight";
+    align-items: start;
+    min-height: 8vh;
+}
+
+.logo{
+display: grid;
+grid-area: logo;
+justify-content: center;
+margin-bottom: 40px;
+
+}
+
+.nav-right{
+   
+    grid-area: navRight;
+    display: grid;
+    justify-content: center;
+
+}
+.nav-links{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.nav-right a {
+    text-decoration: none;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+    color: white;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    cursor: default;
+    font-size: 20px;
+}
+
+.toggle a{
+    transition: all 0.5s ease-in;
+
+    opacity: 1;
+}
+
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+
+}
+.burger div{
+  
+    margin: 2px;
+    background-color: white;
+    transition: all 0.3s ease;
+    height: 3px;
+
+}
+
+.line1{
+    width: 20px;
+}
+
+.line2{
+    width: 25px;
+}
+
+.line3{
+    width: 30px;
+}
+
+
+
+
+.message{
+    grid-area: message;
+    display: grid;
+justify-content: start;
+align-content: end;
+}
+
+.nav-right i{
+    flex-direction: column;
+    grid-area: landingIcons;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 40px;
+}
