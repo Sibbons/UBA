@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #1a1943;
     color: white;
@@ -5,24 +10,22 @@ body{
 }
 
 .landingWrapper{
-    margin-top: 8vh;
+    margin-left: 12%;
     display: grid;
     justify-content: space-around;
     align-content: end;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "logo . . navRight"
-    ". message . navRight";
+    "message message message navRight";
     align-items: start;
-    min-height: 8vh;
+    padding-top: 150px;  
 }
 
 .logo{
 display: grid;
 grid-area: logo;
-justify-content: center;
 margin-bottom: 40px;
-
 }
 
 .nav-right{
@@ -47,15 +50,24 @@ margin-bottom: 40px;
     opacity: 0;
     transition: all 0.5s ease-out;
     cursor: default;
-    font-size: 20px;
+    font-size: 35px;
 }
 
-.toggle a{
+.toggle a {
     transition: all 0.5s ease-in;
-
     opacity: 1;
+    cursor: pointer;
+
 }
 
+.toggle a:hover{
+    background-image: linear-gradient(
+        0,
+        #fb4c49 30%,
+		transparent 30%
+    );
+
+}
 
 .burger{
     display: flex;
@@ -69,20 +81,20 @@ margin-bottom: 40px;
     margin: 2px;
     background-color: white;
     transition: all 0.3s ease;
-    height: 3px;
+    height: 4px;
 
 }
 
 .line1{
-    width: 20px;
-}
-
-.line2{
     width: 25px;
 }
 
-.line3{
+.line2{
     width: 30px;
+}
+
+.line3{
+    width: 35px;
 }
 
 
@@ -91,10 +103,20 @@ margin-bottom: 40px;
 .message{
     grid-area: message;
     display: grid;
-justify-content: start;
+justify-content: center ;
 align-content: end;
+font-size: 40px;
+margin-top: 250px;
+letter-spacing: 5px;
 }
-
+.message h1 span {
+	background-image: linear-gradient(
+		0,
+		#fb4c49 50%,
+		transparent 50%
+	);
+	
+}
 .nav-right i{
     flex-direction: column;
     grid-area: landingIcons;
@@ -102,4 +124,33 @@ align-content: end;
     flex-direction: column;
     align-items: flex-end;
     font-size: 40px;
+    cursor: pointer;
+}
+
+.sideIcons{
+    margin-top: 140px;
+}
+
+
+.meetingTime{
+    margin: 500px 12%;
+}
+
+.meetingTime h2{
+    font-size: 30px;
+}
+
+.meetingTime h1{
+    font-size: 57px;
+    margin-top: .5em;
+    letter-spacing: 5px;
+
+}
+
+
+.meetingTime div{
+    margin: 2px;
+    background-color: #fb4c49;
+    width:80px;
+    height: 5px;
 }
