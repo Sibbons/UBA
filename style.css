@@ -19,7 +19,7 @@ body{
     "logo . . navRight"
     "message message message navRight";
     align-items: start;
-    padding-top: 115px;  
+    padding-top: 150px;  
 }
 
 .logo{
@@ -33,11 +33,14 @@ margin-bottom: 40px;
     grid-area: navRight;
     display: grid;
     justify-content: center;
+    margin-right: 5em;
+
 
 }
 .nav-links{
     margin-top: 15px;
     margin-bottom: 40px;
+
 }
 .nav-right a {
     text-decoration: none;
@@ -50,11 +53,11 @@ margin-bottom: 40px;
     opacity: 0;
     transition: all 0.5s ease-out;
     cursor: default;
-    font-size: 37px;
-    font-family: 'Ubuntu Mono';
+    font-size: 43px;
+    font-family: 'Ubuntu';
     margin-right: 10px;
-    font-weight: 550;
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
 }
 
 .toggle a {
@@ -67,8 +70,8 @@ margin-bottom: 40px;
  .toggle a:hover{
     background-image: linear-gradient(
         0,
-        #fb4c49 30%,
-		transparent 30%
+        #fb4c49 25%,
+		transparent 25%
     );
 
 }
@@ -111,14 +114,15 @@ margin-bottom: 40px;
     display: grid;
     justify-content: start;
     align-content: end;
-    font-size: 26px;
-    margin-top: 200px;
+    font-size: 33px;
+    margin-top: 250px;
     letter-spacing: 5px;
 }
-.message h1{
-    margin-top: 10px;
-}
-.message h1 {
+
+.message p {
+    margin-top: 15px;
+    font-size: 60px;
+    font-weight: bolder;
 	background-image: linear-gradient(
 		0,
 		#fb4c49 50%,
@@ -134,12 +138,12 @@ margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 37px;
+    font-size: 43px;
     cursor: pointer;
 }
 
 .sideIcons{
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 
@@ -148,16 +152,15 @@ margin-bottom: 40px;
 }
 
 .gm{
-    font-size: 20px;
+    font-size: 27px;
     font-family: 'Ubuntu Mono';
 
 }
 
 .meetingTime{
     font-family: Ubuntu;
-    font-size: 45px;
+    font-size: 55px;
     margin-top: .5em;
-    letter-spacing: 3px;
 
 }
 
@@ -169,19 +172,20 @@ margin-bottom: 40px;
 }
 
 .aboutWrapper{
-    margin:100px 12%;
+    margin:100px 5em 0px 12%;
 }
 
 .aboutHead{
-    font-size: 75px;
+    font-size: 100px;
     font-family: 'Ubuntu mono';
-    letter-spacing: 2px;
+    letter-spacing: 7px;
+    font-weight: bold;
 }
 
 .underAbout{
     margin-top: 20px;
     background-color: #fb4c49;
-    width: 100px;
+    width: 150px;
     height: 7px;
 }
 
@@ -189,11 +193,20 @@ margin-bottom: 40px;
     display: grid;
     margin-top: 50px;
     grid-template-columns: 1fr 1fr;
+    column-gap: 7.5em;
     margin-bottom: 1000px;
 }
 
 .aboutDescription p{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Montserrat';
     font-weight: 750;
+    margin-top: 8px;
+    margin-right: 40px;
+}
+
+.aboutGradient{
+    width: 87%;
+    background: rgb(251,76,73);
+background: linear-gradient(90deg, rgba(251,76,73,1) 15%, rgba(9,9,121,0) 100%, rgba(26,25,67,1) 100%);
 }
