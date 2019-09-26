@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 body{
     background-color: #1a1943;
@@ -170,7 +172,8 @@ margin-bottom: 40px;
 }
 
 .aboutWrapper{
-    margin:100px 5em 0px 12%;
+    margin:0px 5em 0px 12%;
+    padding-top: 100px;
 }
 
 .aboutHead{
@@ -178,7 +181,7 @@ margin-bottom: 40px;
     font-family: 'Ubuntu';
 }
 
-.underAbout{
+.lineUnder{
     margin-top: 20px;
     background-color: #fb4c49;
     width: 120px;
@@ -190,7 +193,7 @@ margin-bottom: 40px;
     margin-top: 30px;
     grid-template-columns: 1fr 1fr;
     column-gap: 5.5em;
-    margin-bottom: 1000px;
+    margin-bottom: 200px;
 }
 
 .aboutDescription p{
@@ -208,4 +211,21 @@ margin-bottom: 40px;
     width: 87%;
     background: rgb(251,76,73);
     background: linear-gradient(90deg, rgba(251,76,73,1) 1%, rgba(9,9,121,0) 95%, rgba(26,25,67,1) 100%);
+}
+
+.memberWrapper{
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr 15%;
+    padding-bottom: 1000px;
+}
+
+.memberHead{
+    font-family: "Ubuntu";
+    font-size: 80px;
+    margin-left: 12%;
+    padding-top: 100px;
+}
+
+.memberHead .lineUnder .underMember {
+    background-color: red;
 }
