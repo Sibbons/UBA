@@ -213,19 +213,80 @@ margin-bottom: 40px;
     background: linear-gradient(90deg, rgba(251,76,73,1) 1%, rgba(9,9,121,0) 95%, rgba(26,25,67,1) 100%);
 }
 
-.memberWrapper{
-    display: grid;
-    grid-template-columns: 15% 1fr 1fr 1fr 15%;
-    padding-bottom: 1000px;
-}
-
 .memberHead{
     font-family: "Ubuntu";
     font-size: 80px;
     margin-left: 12%;
-    padding-top: 100px;
 }
 
-.memberHead .lineUnder .underMember {
-    background-color: red;
+.memberWrapper{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 12% 1fr 1fr 1fr 12%;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 365px;
+    grid-row-gap: 5px;
+    grid-template-areas: ". member1 member2 member3 ."
+    ". member4 member5 member6 .";
+    padding-bottom: 1000px;
+    text-align:center;
+}
+
+.memberCircle {
+    height: 195px;
+    width: 195px;
+    background-color: #fb4c49;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.member1{
+    grid-area: member1;
+}
+
+.member2{
+    grid-area: member2;
+}
+
+
+.member3{
+    grid-area: member3;
+}
+
+
+.member4{
+    grid-area: member4;
+}
+
+
+.member5{
+    grid-area: member5;
+}
+
+.member6{
+    grid-area: member6;
+}
+
+.memberName{
+    margin-top: 8px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.memberTitle{
+    margin-top: 15px;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.memberWrapper i{
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.leftIcon{
+    padding-right: 10px;
 }
