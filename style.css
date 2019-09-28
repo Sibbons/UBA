@@ -31,19 +31,18 @@ margin-bottom: 40px;
 }
 
 .nav-right{
-   
     grid-area: navRight;
     display: grid;
     justify-content: center;
     margin-right: 3em;
-
-
 }
+
 .nav-links{
     margin-top: 15px;
     margin-bottom: 40px;
 
 }
+
 .nav-right a {
     text-decoration: none;
     display: none;
@@ -65,7 +64,6 @@ margin-bottom: 40px;
     transition: all 0.5s ease-in;
     opacity: 1;
     cursor: pointer;
-
 }
 
  .toggle a:hover{
@@ -74,7 +72,6 @@ margin-bottom: 40px;
         #fb4c49 25%,
 		transparent 25%
     );
-
 }
 
 .burger{
@@ -82,15 +79,13 @@ margin-bottom: 40px;
     flex-direction: column;
     align-items: flex-end;
     cursor: pointer;
-
 }
+
 .burger div{
-  
     margin: 2px;
     background-color: white;
     transition: all 0.3s ease;
     height: 3.5px;
-
 }
 
 .line1{
@@ -104,9 +99,6 @@ margin-bottom: 40px;
 .line3{
     width: 32px;
 }
-
-
-
 
 .message{
     font-family: Ubuntu; 
@@ -130,7 +122,6 @@ margin-bottom: 40px;
     padding:0em 1em;
     letter-spacing: 3px;
 }
-
 
 .nav-right i{
     flex-direction: column;
@@ -163,7 +154,12 @@ margin-bottom: 40px;
     margin-top: .5em;
 
 }
-
+.sectionHead{
+    font-family: "Ubuntu";
+    font-size: 80px;
+    margin-left: 12%;
+    padding-top: 50px;
+}
 .barAbove{
     margin: 2px;
     background-color: #fb4c49;
@@ -176,10 +172,7 @@ margin-bottom: 40px;
     padding-top: 100px;
 }
 
-.aboutHead{
-    font-size: 82px;
-    font-family: 'Ubuntu';
-}
+
 
 .lineUnder{
     margin-top: 20px;
@@ -213,11 +206,7 @@ margin-bottom: 40px;
     background: linear-gradient(90deg, rgba(251,76,73,1) 1%, rgba(9,9,121,0) 95%, rgba(26,25,67,1) 100%);
 }
 
-.memberHead{
-    font-family: "Ubuntu";
-    font-size: 80px;
-    margin-left: 12%;
-}
+
 
 .memberWrapper{
     display: grid;
@@ -229,7 +218,7 @@ margin-bottom: 40px;
     grid-row-gap: 5px;
     grid-template-areas: ". member1 member2 member3 ."
     ". member4 member5 member6 .";
-    padding-bottom: 1000px;
+    padding-bottom: 200px;
     text-align:center;
 }
 
@@ -249,16 +238,13 @@ margin-bottom: 40px;
     grid-area: member2;
 }
 
-
 .member3{
     grid-area: member3;
 }
 
-
 .member4{
     grid-area: member4;
 }
-
 
 .member5{
     grid-area: member5;
@@ -290,3 +276,21 @@ margin-bottom: 40px;
 .leftIcon{
     padding-right: 10px;
 }
+
+.projectWrapper{
+    margin-left: 8%;
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(600px , 1fr));
+    
+    grid-row-gap: 100px;
+    padding-bottom: 1000px;
+}
+
+.card1, .card2{
+    margin-top: 200px;
+    width: 90%;
+    height: 200px;
+    background-color: #24235e;
+}
+
