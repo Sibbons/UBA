@@ -39,7 +39,6 @@ margin-bottom: 40px;
 
 .nav-links{
     margin-top: 15px;
-    margin-bottom: 40px;
 
 }
 
@@ -56,7 +55,6 @@ margin-bottom: 40px;
     cursor: default;
     font-size: 35px;
     font-family: 'Ubuntu';
-    margin-right: 10px;
     font-weight: 500;
 }
 
@@ -134,9 +132,8 @@ margin-bottom: 40px;
 }
 
 .sideIcons{
-    margin-top: 80px;
+    margin-top: 150px;
 }
-
 
 .meetingTimeWrapper{
     margin: 500px 0px 150px 12%;
@@ -167,12 +164,6 @@ margin-bottom: 40px;
     height: 5px;
 }
 
-.aboutWrapper{
-    margin:0px 5em 0px 12%;
-    padding-top: 100px;
-}
-
-
 .lineUnder{
     margin-top: 20px;
     background-color: #fb4c49;
@@ -180,6 +171,10 @@ margin-bottom: 40px;
     height: 7px;
 }
 
+.aboutWrapper{
+    margin:0px 5em 0px 12%;
+    padding-top: 100px;
+}
 .aboutMain{
     display: grid;
     margin-top: 30px;
@@ -213,7 +208,7 @@ margin-bottom: 40px;
 
     align-items: center;
     justify-items: center;
-    grid-template-columns:repeat(auto-fit, minmax(425px , 1fr));
+    grid-template-columns:1fr 1fr 1fr;
 
     grid-template-rows: 365px;
     grid-row-gap: 5px;
@@ -256,10 +251,9 @@ margin-bottom: 40px;
 .projectWrapper{
     margin-left: 5%;
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(500px , 2fr));
-    padding-bottom: 1000px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 300px;
 }
-
 
 
 .cardTop{
@@ -298,8 +292,9 @@ margin-bottom: 40px;
     margin: 0px 0px 0px 25px;
     background-color: #24235e;
     width: 88%;
-
 }
+
+
 .teamLead{
     font-family:'Ubuntu';
     padding: 30px 25px;
@@ -311,4 +306,189 @@ margin-bottom: 40px;
     font-weight: bold;
     padding: 0px 25px 100px 25px;
     font-size: 20px;
+}
+
+
+.contactWrapper{
+    background: rgb(82,37,68);
+    background: linear-gradient(90deg, rgba(82,37,68,1) 0%, rgba(26,25,67,1) 100%);
+}
+
+.contactEmails{
+    margin-left: 12%;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+.newsLetterWrapper{
+    padding-bottom: 500px;
+    background-color: #fb4c49;
+    font-family: 'Ubuntu';
+}
+
+.newsHead{
+    padding: 175px 0 0 9%;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+
+.emailInput{
+    margin-top: 60px;
+    width: 45%;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 10%;
+    font-family: "Ubuntu Mono";
+
+}
+.submitEmail{
+    margin-top: 60px;
+    width: 35%;
+    height: 60px;
+    background-color:#1a1943;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: "Ubuntu Mono";
+    border: none;
+}
+
+
+@media screen and (max-width: 1000px){
+ 
+    .nav-right{
+        grid-area: navRight;
+        display: grid;
+        justify-content: center;
+        margin-right:1em;
+    }
+    .sideIcons{
+        margin-top: 60px;
+    }
+
+    .nav-right i {
+        font-size: 17px;
+
+    }
+    .nav-right a{
+        font-size: 17px;
+    }
+    .line1{
+        width: 12px;
+    }
+    
+    .line2{
+        width: 19px;
+    }
+    
+    .line3{
+        width: 25px;
+    }
+    .message{
+        margin-top: 100px;
+    }
+    .message p {
+        font-size: 20px;
+    }
+    .gm{
+        font-size: 16px;
+    }
+    .barAbove{
+        width: 10px;
+        height: 5px;
+    }
+    .meetingTime{
+        font-family: Ubuntu;
+        font-size: 25px;
+        margin-top: .5em;
+    
+    }
+    .sectionHead{
+        font-family: "Ubuntu";
+        font-size: 40px;
+        margin-left: 12%;
+        padding-top: 50px;
+    }
+    .barAbove{
+        margin: 2px;
+        background-color: #fb4c49;
+        width: 70px;
+        height: 5px;
+    }
+
+    .aboutWrapper{
+        padding-top: 20px;
+        margin:0px 12% 0px 12%;
+        
+    }
+    .aboutMain{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin:0;
+    }
+    .aboutDescription p{
+        margin:0;
+        font-size: 15px;
+    }
+    .aboutGradient{
+        display: none;
+    }
+     
+    .memberWrapper{
+     display: grid;
+     grid-template-columns:1fr;
+    }
+
+    .projectWrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+     .cardTop{
+        height: 110px;
+    }   
+
+    .cardTopTitle{
+        font-size: 20px;
+    }
+
+    .teamLead{
+        font-size: 20px;
+    }
+    .cardDescription{
+        font-size: 15px;
+        padding: 0px 25px 50px 25px;
+    }
+    .contactEmails{
+        margin-left: 12%;
+        font-family: 'Ubuntu';
+        font-size: 12px;
+        padding-bottom: 100px;
+    }
+
+    .newsHead{
+        font-size: 30px;
+    }
+    
+    .emailInput{
+        width: 50%;
+        height: 60px;
+        display: block;
+    }
+    .submitEmail{
+        width: 40%;
+        height: 60px;
+        background-color:#1a1943;
+        color: white;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-top: 5px;
+    }
+    
+
 }
