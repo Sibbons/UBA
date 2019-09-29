@@ -343,9 +343,11 @@ margin-bottom: 40px;
     font-size: 20px;
     margin-left: 10%;
     font-family: "Ubuntu Mono";
+    border: none;
 
 }
 .submitEmail{
+ 
     margin-top: 60px;
     width: 35%;
     height: 60px;
@@ -367,11 +369,11 @@ margin-bottom: 40px;
         margin-right:1em;
     }
     .sideIcons{
-        margin-top: 60px;
+        margin-top: 110px;
     }
 
     .nav-right i {
-        font-size: 17px;
+        font-size: 18px;
 
     }
     .nav-right a{
@@ -433,7 +435,10 @@ margin-bottom: 40px;
     }
     .aboutDescription p{
         margin:0;
+        color: white;
         font-size: 15px;
+        font-family: 'Montserrat';
+        font-weight: 750;
     }
     .aboutGradient{
         display: none;
@@ -451,6 +456,7 @@ margin-bottom: 40px;
 
      .cardTop{
         height: 110px;
+        padding-bottom: 80px;
     }   
 
     .cardTopTitle{
@@ -459,32 +465,36 @@ margin-bottom: 40px;
 
     .teamLead{
         font-size: 20px;
+        font-weight: bold;
+        font-family:'Ubuntu';
+
     }
     .cardDescription{
         font-size: 15px;
         padding: 0px 25px 50px 25px;
-    }
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }      
+
     .contactEmails{
         margin-left: 12%;
         font-family: 'Ubuntu';
-        font-size: 12px;
+        font-size: 15px;
         padding-bottom: 100px;
     }
 
     .newsHead{
-        font-size: 30px;
+        font-size: 28px;
     }
     
     .emailInput{
-        width: 50%;
+        width: 80%;
         height: 60px;
         display: block;
     }
     .submitEmail{
-        width: 40%;
+        width: 80%;
         height: 60px;
-        background-color:#1a1943;
-        color: white;
         font-size: 20px;
         margin-left: 10%;
         margin-top: 5px;
