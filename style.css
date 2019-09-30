@@ -13,11 +13,12 @@ body{
 }
 .bg1{
     background-size: cover;
-    background-image:URL("images/Graph1.png");
-    background-size: 2180px;
-    background-position-y: -383px;
+    background-image:URL("images/Graph2.png");
+    background-size: 2130px;
+    background-position-y: -375px;
     background-position-x: -130px;
     background-repeat: no-repeat;
+    padding-bottom: 150px;
 }
 .landingWrapper{
     opacity: 1;
@@ -148,7 +149,7 @@ margin-bottom: 40px;
 }
 
 .meetingTimeWrapper{
-    margin: 500px 0px 150px 12%;
+    margin: 500px 0px 0 12%;
 }
 
 .gm{
