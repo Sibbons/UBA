@@ -6,12 +6,21 @@
 
 }
 body{
+    z-index: -10;
     background-color: #1a1943;
     color: white;
     font-family: serif;
 }
-
+.bg1{
+    background-size: cover;
+    background-image:URL("images/Graph1.png");
+    background-size: 2180px;
+    background-position-y: -383px;
+    background-position-x: -130px;
+    background-repeat: no-repeat;
+}
 .landingWrapper{
+    opacity: 1;
     margin-left: 12%;
     display: grid;
     justify-content: space-around;
@@ -23,7 +32,10 @@ body{
     align-items: start;
     padding-top: 120px;  
 }
-
+.ubaLogo{
+    width: 45%;
+    height: auto;
+}
 .logo{
 display: grid;
 grid-area: logo;
@@ -325,6 +337,7 @@ margin-bottom: 40px;
     padding-bottom: 500px;
     background-color: #fb4c49;
     font-family: 'Ubuntu';
+    font-size: 0;
 }
 
 .newsHead{
@@ -361,7 +374,10 @@ margin-bottom: 40px;
 
 
 @media screen and (max-width: 1000px){
- 
+    .ubaLogo{
+        width: 100%;
+        height: auto;
+    }
     .nav-right{
         grid-area: navRight;
         display: grid;
@@ -403,9 +419,12 @@ margin-bottom: 40px;
         width: 10px;
         height: 5px;
     }
+    .meetingTimeWrapper{
+        margin-right: 12%;
+    }
     .meetingTime{
         font-family: Ubuntu;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: .5em;
     
     }
