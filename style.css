@@ -246,15 +246,16 @@ margin-bottom: 40px;
 }
 
 .memberTitle{
-    margin-top: 15px;
+    margin-top: 12px;
     font-family: 'Ubuntu';
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 550;
 }
 
 .memberWrapper i{
     margin-top: 22px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .leftIcon{
@@ -358,6 +359,7 @@ margin-bottom: 40px;
     margin-left: 10%;
     font-family: "Ubuntu Mono";
     border: none;
+    padding: 0 30px;
 
 }
 .submitEmail{
@@ -518,7 +520,6 @@ margin-bottom: 40px;
         font-size: 20px;
         margin-left: 10%;
         margin-top: 5px;
-    }
-    
+    } 
 
 }
