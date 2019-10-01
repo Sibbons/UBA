@@ -145,7 +145,7 @@ margin-bottom: 40px;
 }
 
 .sideIcons{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .meetingTimeWrapper{
@@ -336,7 +336,7 @@ margin-bottom: 40px;
 }
 
 .newsLetterWrapper{
-    padding-bottom: 500px;
+    padding-bottom: 100px;
     background-color: #fb4c49;
     font-family: 'Ubuntu';
     font-size: 0;
@@ -375,7 +375,29 @@ margin-bottom: 40px;
     border: none;
 }
 
+.copyright{
+    margin-top: 90px;
+    font-size: 20px;
+    margin-left: 10%;
+}
 
+.msgBottom{
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.bottomIcons{
+    margin-right: 10%;
+    margin-bottom: -8px;
+    font-size: 50px;
+}
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 @media screen and (max-width: 1000px){
     .ubaLogo{
         width: 100%;
@@ -388,11 +410,11 @@ margin-bottom: 40px;
         margin-right:1em;
     }
     .sideIcons{
-        margin-top: 110px;
+        margin-top: 85px;
     }
 
     .nav-right i {
-        font-size: 18px;
+        font-size: 20px;
 
     }
     .nav-right a{
@@ -506,6 +528,7 @@ margin-bottom: 40px;
     }
 
     .newsHead{
+        padding-top: 100px;
         font-size: 28px;
     }
     
@@ -521,5 +544,25 @@ margin-bottom: 40px;
         margin-left: 10%;
         margin-top: 5px;
     } 
+    .copyright{
+        margin-top: 45px;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+    .footer{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .msgBottom{
+        font-size: 15px;
+        margin-left: 10%;
+        display: block;
+    }
+    
+    .bottomIcons{
+        margin: 30px 0 0 43%;
+        font-size: 25px;
+    }
 
 }
