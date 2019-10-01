@@ -363,7 +363,8 @@ margin-bottom: 40px;
 
 }
 .submitEmail{
- 
+    cursor: pointer;
+
     margin-top: 60px;
     width: 35%;
     height: 60px;
@@ -390,6 +391,7 @@ margin-bottom: 40px;
     margin-right: 10%;
     margin-bottom: -8px;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .footer{
