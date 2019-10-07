@@ -96,7 +96,7 @@ margin-bottom: 40px;
     margin: 2px;
     background-color: white;
     transition: all 0.3s ease;
-    height: 3.5px;
+    height: 3px;
 }
 
 .line1{
@@ -271,6 +271,7 @@ margin-bottom: 40px;
 
 
 .cardTop{
+    grid-area: proj1;
     margin: 40px 0px 0px 25px;
     background-color: #24235e;
     height: 225px;
@@ -332,11 +333,11 @@ margin-bottom: 40px;
     margin-left: 12%;
     font-family: 'Ubuntu';
     font-size: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .newsLetterWrapper{
-    padding-bottom: 100px;
+    padding: 20px 0 100px 0;
     background-color: #fb4c49;
     font-family: 'Ubuntu';
     font-size: 0;
@@ -377,7 +378,7 @@ margin-bottom: 40px;
 }
 
 .copyright{
-    margin-top: 90px;
+    margin-top: 40px;
     font-size: 20px;
     margin-left: 10%;
 }
@@ -395,7 +396,7 @@ margin-bottom: 40px;
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
