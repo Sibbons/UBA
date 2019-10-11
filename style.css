@@ -236,8 +236,6 @@ margin-bottom: 40px;
     border-radius: 50%;
 }
 
-
-
 .memberName{
     margin-top: 8px;
     font-family: 'Ubuntu';
@@ -278,8 +276,20 @@ margin-bottom: 40px;
     width: 88%;
     display: flex; 
     flex-direction: column;
-}   
+}
 
+.cardDescription{
+    padding: 0px 25px 100px 25px;
+}
+
+.cardDescription p {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 750;
+    padding-left: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
 
 .cardTopGradient{
     margin-top: 50px;
@@ -316,12 +326,7 @@ margin-bottom: 40px;
     font-size: 30px;
     font-weight: bold;
 }
-.cardDescription{
-    font-family: 'Montserrat';
-    font-weight: bold;
-    padding: 0px 25px 100px 25px;
-    font-size: 20px;
-}
+
 
 
 .contactWrapper{
@@ -516,12 +521,7 @@ margin-bottom: 40px;
         font-family:'Ubuntu';
 
     }
-    .cardDescription{
-        font-size: 15px;
-        padding: 0px 25px 50px 25px;
-        font-family: 'Montserrat';
-        font-weight: bold;
-    }      
+ 
 
     .contactEmails{
         margin-left: 12%;
