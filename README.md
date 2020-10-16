@@ -1,2 +1,3 @@
-# UBA Club website
-Link to the website http://www.dvcuba.com/
+# Undergraduate Business Analytics 
+
+Business club that helps other clubs at Diablo Valley College with their problems using the power of data and software.
